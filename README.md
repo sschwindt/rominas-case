@@ -1,4 +1,4 @@
-# Romina's Case
+# Romina's Tucumàn Floods Case
 This repository contains data for the project case study in *Integrated River Engineering and SedimentManagement*.
 
 Find geodata in the zip files of the `geodata` folder:
@@ -17,6 +17,16 @@ Find geodata in the zip files of the `geodata` folder:
 - Annual soil loss rates – `geodata/soil_loss_m_per_year.zip` with pixel values ranging from 0 to 10. Use the classify symbology with 11 classes to visualize it.
 - Watershed sub-zones – `geodata/watershed.zip`
 - Census (social) data - `geodata/census-data.zip` (refer to README within census data)
+- Soil loss data - ` geodata/soil_loss_2010.zip` with eight classified soil loss (IDs):
+	* 1: 0 - 2 (tons / hectar / year)
+	* 2: 2 - 4 (tons / hectar / year) 
+	* 3: 4 - 6 (tons / hectar / year)
+	* 4: 6 - 8 (tons / hectar / year)
+	* 5: 8 - 10 (tons / hectar / year)
+	* 6: 10 - 20 (tons / hectar / year)
+	* 7: 20 - 40 (tons / hectar / year)
+	* 8: > 40 (tons / hectar / year)
+	* Note: 1 ha = 10<sup>4</sup> m²
 
 Metadata and hydrological data extracts from three stations (provided by Romina):
 - 409_Las_canas_Potrero_del_clavillo
